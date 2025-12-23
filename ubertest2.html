@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants near me | Uber Eats</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="../Fontawesome/css/all.css">
+</head>
+<body>
+    <!-- Desktop nav -->
+    <section class="max-md:hidden">
+        <nav class="w-full bg-white text-black flex p-4 gap-5 font-semibold sticky top-0 z-50">
+            <div class="ml-5">
+                <i class="fas fa-bars px-2 hover:bg-gray-300 rounded-full text-xl py-1 cursor-pointer"></i>
+            </div>
+            <h1 class="text-xl">Uber <b>Eats</b></h1>
+                <div class="flex text-sm w-40 py-1 rounded-full bg-gray-200">
+                    <p class="ml-1 h-6 w-19 text-center rounded-full bg-white shadow-lg cursor-pointer">Delivery</p>
+                    <p class="ml-5 cursor-pointer">Pickup</p>
+                </div>
+            </div>
+            <div class=" ml-175 space-x-5 text-sm">
+                <a href="" class="cursor-pointer">Log in</a>
+                <a href=" " class="px-3 py-2 rounded-full bg-gray-200 hover:bg-gray-300 cursor-pointer">Sign up</a>
+            </div>
+        </nav>
+        <div class="bg-amber-400">
+            <div class="flex justify-between">
+        <img src="https://www.ubereats.com/_static/7981ed1c9d3bc9f4.svg" alt="" class=" h-125">
+        <img src="https://www.ubereats.com/_static/d71cdec0519cee22.svg" alt="" class="h-125">
+    </div>
+        </div>
+    </section>
+    <section class="bg-amber-400">
+    <div class="absolute inset-0 p-5 lg:p-0 my-25 lg:my-62 lg:text-center text-4xl font-bold">
+            <h1>Order your favorites with Uber Eats</h1>
+        </div>
+    </section>
+    <!-- Desktop nav ends -->
+    <!-- mobile nav -->
+         <section class="lg:hidden">
+        <nav class="absolute bg-white w-full">
+            <div class="flex font-semibold text-xl px-3">
+                <div class="cursor-pointer w-10 h-9 py-2 rounded-full hover:bg-gray-200">
+                <i class="fas fa-bars ml-3"></i>
+                </div>
+                <h1 class="py-2">Uber <b>Eats</b></h1>
+                <div class=" flex text-xs text-sm cursor-pointer ml-10">
+                <a href="" class="text-3xl px-3">
+                <i class=" fa-solid fa-circle-user text-black"></i>
+                </a>
+                <div class="py-3 space-x-2">
+                <a class=" text-white bg-black px-3 py-2 rounded-full hover:bg-black/80">
+                    Sign up
+                </a>
+                </div>
+            </div>
+            </div>
+            <div class="flex justify-between mb-1">
+                <div class="ml-5">
+                <h2 class="text-xs">Deliver now</h2>
+                <div class="flex space-x-2">
+                <p class="text-sm">Enter delivery addr..</p>
+                <i class="fas fa-angle-down mt-1 cursor-pointer"></i>
+                </div>
+                </div>
+              <div class="w-28 h-8 rounded-full text-center bg-gray-200 cursor-pointer">
+                <a href="" class="font-semibold text-sm">Delivery</a>
+                <i class="fa-solid fa-angle-down"></i>
+                </div> 
+            </div>  
+        </nav>
+         <div class="bg-amber-400">
+            <div class="flex justify-between">
+        <img src="https://www.ubereats.com/_static/a4fd0dd14e87d945.svg" alt="" class="h-50 mt-80">
+        
+    </div> 
+    </section>
+<!-- mobile ends -->
+
+    <section>
+        <div class="absolute inset-0 w-70 lg:w-140 my-70 lg:my-85 mx-5 lg:mx-70">
+        <input type="text" placeholder="Enter delivery address" class="w-full pl-12 pr-4 py-4
+         lg:rounded-md bg-white text-gray-800">
+        <i class="fa-solid fa-location-dot absolute left-5  transform py-4
+         text-black text-lg"></i>
+        
+
+        <div class="flex items-center justify-center absolute bg-black text-white inset-0 py-7 my-19 lg:my-0 rounded-md w-70 lg:w-27 lg:mx-145
+         space-x-2 font-semibold cursor-pointer hover:bg-black/80">
+            <p>Find Food</p>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="p-5 lg:p-9">
+            <h2 class="font-bold text-2xl lg:text-3xl my-3">Restaurants near me</h2>
+            <p>Craving food? Discover restaurants near you and get food delivered to your door.</p>
+        </div>
+    </section>
+    <div class="border border-t border-gray-100 ml-9 mr-9"></div>
+
+    <section>
+        <div class="p-5 lg:p-9 font-bold text-2xl lg:text-3xl">
+            <h2>Popular locations</h2>
+        </div>
+       <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-5 ml-5 lg:ml-10">
+          <div>
+            <ul class="space-y-5 w-fit">
+              <li class="cursor-pointer">New York Food Near Me</li>
+              <li class="cursor-pointer">Los Angeles Food Near Me</li>
+              <li class="cursor-pointer">Chicago Food Near Me</li>
+              <li class="cursor-pointer">Houston Food Near Me</li>
+              <li class="cursor-pointer">San Francisco Food Near Me</li>
+              <li class="cursor-pointer">Miami Food Near Me</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="space-y-5 w-fit lg:ml-10">
+              <li class="cursor-pointer">San Diego Food Near Me</li>
+              <li class="cursor-pointer">Philadelphia Food Near Me</li>
+              <li class="cursor-pointer">Las Vegas Food Near Me</li>
+              <li class="cursor-pointer">Dallas Food Near Me</li>
+              <li class="cursor-pointer">San Antonio Food Near Me</li>
+              <li class="cursor-pointer">Austin Food Near Me</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="space-y-5 w-fit lg:ml-10">
+              <li class="cursor-pointer">Atlanta Food Near Me</li>
+              <li class="cursor-pointer ">Orlando Food Near Me</li>
+              <li class="cursor-pointer">Washington Food Near Me</li>
+              <li class="cursor-pointer">Phoenix Food Near Me</li>
+              <li class="cursor-pointer">Boston Food Near Me</li>
+              <li class="cursor-pointer">Tampa Food Near Me</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="space-y-5 w-fit lg:ml-10">
+              <li class="cursor-pointer">Seattle Food Near Me</li>
+              <li class="cursor-pointer">Baltimore Food Near Me</li>
+              <li class="cursor-pointer">Nashville Food Near Me</li>
+              <li class="cursor-pointer">Columbus Food Near Me</li>
+              <li class="cursor-pointer">Portland Food Near Me</li>
+              <li class="cursor-pointer">Denver Food Near Me</li>
+            </ul>
+          </div>
+    </section>
+    
+    <div class="border border-t border-gray-100 ml-9 mr-9 mt-9 "></div>
+
+    <section>
+        <div class="p-9">
+            <div class="flex justify-between">
+            <h2 class="font-bold text-2xl mb-5">National favorites</h2>
+            <div class="flex gap-5 my-1">
+            <p class="max-md:hidden text-sm cursor-pointer font-semibold">See all</p>
+            <div class="max-lg:hidden">
+            <i class="fa-solid fa-arrow-left bg-gray-200 rounded-full h-5 w-7 text-center text-gray-500"></i>
+            </div>
+            <i class="fa-solid fa-arrow-right my-1 bg-gray-200 rounded-full h-5 w-7 text-center cursor-pointer"></i>
+            </div>
+            </div>
+            <div class="lg:grid md:grid-cols-2 lg:my-5 space-y-8">
+            
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS9iMTE0ZDg0YmUxOTM3ZWE2Y2FiMWNkNWI3ODIxYTIwMS82ZTEyZDFiODliY2Q5NjU0M2Q5ODdkNjE5MTVlY2NlNi5qcGVn" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Krispy Krunchy Chicken</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS83NjFlNjgwMDZhMGUyM2FiY2E4YjExYWU1YWJmMWIxZS84ZWVkNjcwOTA0YTQ5YzZlOTMwNTE3ODE5YTU1OWEzYS5qcGVn" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Lers Ros Thai</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.3</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Thai • Family Meals • Group Fried</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvOTZmZTlkYzdmMWVhZDA3ZDEwOWNhMmNiMDVkOTUxYTUvYTcwZjVjOWRmNDQwZDEwMjEzZTkzMjQ0ZTllYjdjYWQuanBlZw==" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taiwan Fruit Tea</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.0</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Chinatown• -M Cafe</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-sm absolute text-center text-white bg-red-600 m-2">Top Offer •  20% off(Sp...) </span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvMzNiOWQ2MGYwMTFlYTBmYmQzZmE4M2Y0NjJhNTQyMmIvOWIzYWFlNGNmOTBmODk3Nzk5YTVlZDM1N2Q2MGUwOWQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Over The Moon Cream</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZTE5YTEwMDI1ZjdkODQyMTY2MTk0ZjdiNjVjNDliNGYvYTcwZjVjOWRmNDQwZDEwMjEzZTkzMjQ0ZTllYjdjYWQuanBlZw==" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Salem Sandwhish</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZTRlZGMwYWI0YzNjYjEyZWM4MzkwN2UxZDA3MWExYzQvYTcwZjVjOWRmNDQwZDEwMjEzZTkzMjQ0ZTllYjdjYWQuanBlZw==" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Insomnia Cookies</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="border border-t border-gray-100 ml-9 mr-9 mt-9 "></div>
+
+    <section>
+        <div class="p-9">
+            <div class="flex justify-between">
+            <h2 class="font-bold text-2xl mb-5">Only on Uber Eats</h2>
+            <div class="flex gap-5 my-1">
+            <p class=" max-md:hidden text-sm cursor-pointer font-semibold">See all</p>
+            <div class="max-lg:hidden">
+            <i class="fa-solid fa-arrow-left bg-gray-200 rounded-full h-5 w-7 text-center text-gray-500"></i>
+            </div>
+            <i class="fa-solid fa-arrow-right my-1 bg-gray-200 rounded-full h-5 w-7 text-center cursor-pointer"></i>
+            </div>
+            </div>
+            <div class="lg:grid md:grid-cols-2 lg:my-5 space-y-8">
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8xODk3NmM2OTcyNmE1Y2ZiMmQ1ZjMxY2RiZmY4OTQ5Zi83YWNkOTk4NjY0MWEyMGM4Y2RkY2VmNTk5NmQwZmE1My5qcGVn" alt="" class=" lg:w-44 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">707 Sutter</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8xYzQxODVlODYwMmNlZjZlODdlNzM4MWNhMTJmNzViNy82ZTI2NDAyZDViNzdjZmU2MzkyYTc1NTc0Yzg0NDEwMi5qcGVn" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">iThai Bangkok Street Food</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Free Item(Spend $40) </span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8yMGU1YTBhYTVkNjk0YTVmOTE5OWYyNjkzM2U3Mjk5My8yMGFiNDI4OTBiMTNkYzNmZTcxNWI2YzkyYzg3ZGU4ZS5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Mr Szechuan</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.5</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS80Y2NiMzg4M2U4MDI1ZmJiMWI3MTZjNjMxZThmMTQ2NS8zZDU1M2I1ZDhhNzQ4NTdkYjQwYTc1NzVjMDAzZGM3Ny53ZWJw" alt="" class="lg:w-44 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Hot Cookie</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS84N2E4ZmFhYmMwYmI0MmI3ZGEwZGFiZjIwMjI1YzZlNy85NjZmNDk4MjlhZmUzYzAzZGZkMjczMDc3NzBlZTM0Zi5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Mustafio's Pizza</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS81NWQ5OWZmYjViOTg3NmExNmZjMTBmN2I1MmNmYmM3OS80ZTI3MGI0OGMyYjlmY2QzYmM4ZTM3YTA5NzkxNmU4OC5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taqueria La Iguana Azul</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+    </section>
+
+     <div class="border border-t border-gray-100 ml-9 mr-9 mt-9 "></div>
+
+     <section>
+        <div class="p-9">
+            <div class="flex justify-between">
+            <h2 class="font-bold text-2xl mb-5">Great for groups</h2>
+            <div class="flex gap-5 my-1">
+            <p class="max-md:hidden text-sm cursor-pointer font-semibold">See all</p>
+            <div class="max-lg:hidden">
+            <i class="fa-solid fa-arrow-left bg-gray-200 rounded-full h-5 w-7 text-center text-gray-500"></i>
+            </div>
+            <i class="fa-solid fa-arrow-right my-1 bg-gray-200 rounded-full h-5 w-7 text-center cursor-pointer"></i>
+            </div>
+            </div>
+            <div class="lg:grid md:grid-cols-2 lg:my-5 space-y-8">
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Save on Select Items</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvOWViZDc5NDU3ZmMxM2Y5OWFjOGEzZTNjOTI3ZGU3MDUvNTYwYTExZjVkMjZlNGNiODM2ODZmNzgxMGE1ZjVmZTIuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">7-Eleven</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Snacks • Pizza • Home & Personal Care • Convenience</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Budget-friendly Union Square spot, offering Chocolate, Juice, Fruity, 
+                                Ben & Jerry's, Cookies & Bakery and more.</p>
+                            <p class="w-fit text-sm text-gray-500">527 Sutter St, San Francisco, CA 94102</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">3 Offers Available</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZWQwYWRhYmI0YjcwNmM0NzdhNTAxNTA1NDU0MmExMmYvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Wingstop</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.4</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Chicken • Wings • Fried Chicken</p>
+                            <p class="w-fit text-sm text-gray-500">1200 Market St, 102 & 104, San Francisco, CA 94102-480</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvNjQwN2JhMjU5Y2Q2YmVjYzk5MDBhYzRiZGEyMTg1YTMvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taco Bell</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Mexican • Burritos • Fast Food • Tacos • Breakfast and Brun</p>
+                            <p class="w-fit text-sm text-gray-500">90 Charter Oak Avenue, San Francisco, CA 94124</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Buy1, Get 1 free</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZDk4NTgyYzIzZGE3YTM1NjJkOGU4NmUzMDhjYWJhYjcvOWIzYWFlNGNmOTBmODk3Nzk5YTVlZDM1N2Q2MGUwOWQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Cocobang</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Korean • Asian • BBQ • Alchol • Family Friend</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Affordable Lower Nob Hill Spot, offering Dinner,Bbq on Sizzing Plate, Small
+                                Dishes  and Salad and more</p>
+                            <p class="w-fit text-sm text-gray-500">550 Taylor St, San Francisco, CA 94102</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <div class="border border-t border-gray-100 ml-9 mr-9 mt-9 "></div>
+
+     <section>
+        <div class="p-9">
+            <div class="flex justify-between">
+            <h2 class="font-bold text-xl lg:text-2xl">Most loved deals on Uber Eats</h2>
+            <div class="flex gap-5 my-1">
+            <p class="max-md:hidden text-sm cursor-pointer font-semibold">See all</p>
+            <div class="max-lg:hidden">
+            <i class="fa-solid fa-arrow-left bg-gray-200 rounded-full h-5 w-7 text-center text-gray-500"></i>
+            </div>
+            <i class="fa-solid fa-arrow-right my-1 bg-gray-200 rounded-full h-5 w-7 text-center cursor-pointer"></i>
+            </div>
+            </div>
+            <div class="lg:grid md:grid-cols-2 lg:my-5 space-y-8">
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">3 Offers Available</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZWQwYWRhYmI0YjcwNmM0NzdhNTAxNTA1NDU0MmExMmYvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Wingstop</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.4</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Chicken • Wings • Fried Chicken</p>
+                            <p class="w-fit text-sm text-gray-500">1200 Market St, 102 & 104, San Francisco, CA 94102-480</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Lowest Delivery Fee</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS9kYmMwYTRjZmFjMTFhYjY3YWFmYmU4ZWEwYWMyMzNhMy81MmJhMDg1MGY4ODVhNTYyOTAxZmNjZmUwZGY3ZWY5ZS5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Pizza Zone N Grill</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Pizza • Wings • American</p>
+                            <p class="w-fit text-sm text-gray-500">Budget-friendly Soma spot, offering Cheese Pizza, Wing Zone, Desserts, Specialty Burgers and more.</p>
+                            <p class="w-fit text-sm text-gray-500">178 Valencia St, San Francisco, CA 94103</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Save on Select Items</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvYjQ2ODE0NjQ2YjFmNmUwOGQ1Y2YwYThjZjFlYzFkZmMvNjNkMTg3NDU4OTJjMTAwYmU5ZTRlZjNjNTYwYzkyMDQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Walgreens</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Pharmacy • Everyday Essentials • Convenience</p>
+                            <p class="w-fit text-sm text-gray-500">Budget-friendly The Castro spot, offering Cough, Cold & Flu, First Aid, 
+                                Candy & Chocolate and more.</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">498 Castro St., San Francisco, CA 94114</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Top Offer • Buy 1...</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8yNjc4Njc0YTI1MDkxNmVjZDNhMTk0N2Y4NGJmYjYxZS85ZDRhYTU0YTlmM2I4ODk3YjJmOGVkYzAwMjU1MmRkMC53ZWJw" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taqueria La Salma</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.1</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Mexican • Tacos • Burritos</p>
+                            <p class="w-fit text-sm text-gray-500">Tenderloin spot, offering Sides, Desserts, Tortas, Nachos, Tacos and more.</p>
+                            <p class="w-fit text-sm text-gray-500">709 O'Farrell Street, San Francisco, CA 94109</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Buy 1, Get 1 Free</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvMmY4OTRhYjJjODJmMDc3YWZhYTg5MjA2NDQ3NTU0M2YvNzgzNTQyOGIyODZhY2I1NzY0NmEyNTZjODk3YzBlOWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">IHOP</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.4</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">BreakFast and Brunch • Family Meals • Family Friendly</p>
+                            <p class="w-fit text-sm text-gray-500">Selection includes Entrées, Milkshakes, World-famous Buttermilk Pancakes & Crepes,
+                                 French Toast and more.</p>
+                            <p class="w-fit text-sm text-gray-500">316 S Airport Blvd, South San Francisco, CA 94080</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Save on Select Items</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvNzc5YmVmYzczM2NlNDY3OWM4MTU0YjUwMzRjNzY3ZDMvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">McDonald's</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">American•Fast Food•Burgers•Group Friendly</p>
+                            <p class="w-fit text-sm text-gray-500">Top 10 San Francisco delivery spot, offering Sweets & Treats, 
+                                Combo Meals, Mcnuggets & Meals and more.</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">441 Sutter St, San Francisco, California 94108, Us, NA, CA 94108</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+      <div class="border border-t border-gray-100 ml-9 mr-9 mt-9 "></div>
+
+      <section>
+               <div class="p-9">
+            <h2 class="font-bold text-2xl mb-5">All Stores</h2>
+            <div class="lg:grid md:grid-cols-2 lg:my-5 space-y-8"> 
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Lowest Delivery Fee</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS9kYmMwYTRjZmFjMTFhYjY3YWFmYmU4ZWEwYWMyMzNhMy81MmJhMDg1MGY4ODVhNTYyOTAxZmNjZmUwZGY3ZWY5ZS5qcGVn" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Pizza Zone N Grill</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Pizza • Wings • American</p>
+                            <p class="w-fit text-sm text-gray-500">Budget-friendly Soma spot, offering Cheese Pizza, Wing Zone, Desserts, Specialty Burgers and more.</p>
+                            <p class="w-fit text-sm text-gray-500">178 Valencia St, San Francisco, CA 94103</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Save on Select Items</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvYjQ2ODE0NjQ2YjFmNmUwOGQ1Y2YwYThjZjFlYzFkZmMvNjNkMTg3NDU4OTJjMTAwYmU5ZTRlZjNjNTYwYzkyMDQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Walgreens</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Pharmacy • Everyday Essentials • Convenience</p>
+                            <p class="w-fit text-sm text-gray-500">Budget-friendly The Castro spot, offering Cough, Cold & Flu, First Aid, 
+                                Candy & Chocolate and more.</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">498 Castro St., San Francisco, CA 94114</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Save on Select Items</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvOWViZDc5NDU3ZmMxM2Y5OWFjOGEzZTNjOTI3ZGU3MDUvNTYwYTExZjVkMjZlNGNiODM2ODZmNzgxMGE1ZjVmZTIuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">7-Eleven</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Snacks • Pizza • Home & Personal Care • Convenience</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Budget-friendly Union Square spot, offering Chocolate, Juice, Fruity, 
+                                Ben & Jerry's, Cookies & Bakery and more.</p>
+                            <p class="w-fit text-sm text-gray-500">527 Sutter St, San Francisco, CA 94102</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">3 Offers Available</span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZWQwYWRhYmI0YjcwNmM0NzdhNTAxNTA1NDU0MmExMmYvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Wingstop</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.4</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Chicken • Wings • Fried Chicken</p>
+                            <p class="w-fit text-sm text-gray-500">1200 Market St, 102 & 104, San Francisco, CA 94102-480</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvNjQwN2JhMjU5Y2Q2YmVjYzk5MDBhYzRiZGEyMTg1YTMvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taco Bell</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-1">Mexican • Burritos • Fast Food • Tacos • Breakfast and Brun</p>
+                            <p class="w-fit text-sm text-gray-500">90 Charter Oak Avenue, San Francisco, CA 94124</p>
+                         </div>
+                    </div>
+                </div>
+                 <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS9iMTE0ZDg0YmUxOTM3ZWE2Y2FiMWNkNWI3ODIxYTIwMS82ZTEyZDFiODliY2Q5NjU0M2Q5ODdkNjE5MTVlY2NlNi5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Krispy Krunchy Chicken</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS83NjFlNjgwMDZhMGUyM2FiY2E4YjExYWU1YWJmMWIxZS84ZWVkNjcwOTA0YTQ5YzZlOTMwNTE3ODE5YTU1OWEzYS5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Lers Ros Thai</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.3</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Thai • Family Meals • Group Fried</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvOTZmZTlkYzdmMWVhZDA3ZDEwOWNhMmNiMDVkOTUxYTUvYTcwZjVjOWRmNDQwZDEwMjEzZTkzMjQ0ZTllYjdjYWQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taiwan Fruit Tea</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.0</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Chinatown• -M Cafe</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-sm absolute text-center text-white bg-red-600 m-2">Top Offer •  20% off(Sp...) </span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvMzNiOWQ2MGYwMTFlYTBmYmQzZmE4M2Y0NjJhNTQyMmIvOWIzYWFlNGNmOTBmODk3Nzk5YTVlZDM1N2Q2MGUwOWQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Over The Moon Cream</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZTE5YTEwMDI1ZjdkODQyMTY2MTk0ZjdiNjVjNDliNGYvYTcwZjVjOWRmNDQwZDEwMjEzZTkzMjQ0ZTllYjdjYWQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Salem Sandwhish</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZTRlZGMwYWI0YzNjYjEyZWM4MzkwN2UxZDA3MWExYzQvYTcwZjVjOWRmNDQwZDEwMjEzZTkzMjQ0ZTllYjdjYWQuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Insomnia Cookies</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">Comfort Food • Fried Chicken • Traditional American</p>
+                            <p class="w-fit text-sm text-gray-500">599 S. Van Ness Ave, San Francisco, CA 94110</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvZGNjOGU1NjU3ZjcxNjIxZjBhYjM5MGZjNjcyY2JjMTAvYzY3ZDU1OGM2MzMyODFmOWM3MWZjNmE5MGVmNDcwYWUuanBlZw==" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Papa Johns Pizza</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-3">American • Chicken • Desserts • Italian • Pizza • Sandwich • </p>
+                            <p class="w-fit text-sm text-gray-500">Top 10 San Francisco delivery spot, said to offer perfectly cooked orders.</p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-1">969 Sutter St, San Francisco, CA 94109</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8xODk3NmM2OTcyNmE1Y2ZiMmQ1ZjMxY2RiZmY4OTQ5Zi83YWNkOTk4NjY0MWEyMGM4Y2RkY2VmNTk5NmQwZmE1My5qcGVn" alt="" class="lg:w-44 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">707 Sutter</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.7</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8xYzQxODVlODYwMmNlZjZlODdlNzM4MWNhMTJmNzViNy82ZTI2NDAyZDViNzdjZmU2MzkyYTc1NTc0Yzg0NDEwMi5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">iThai Bangkok Street Food</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                        <span class="rounded-sm w-40 text-md absolute text-center text-white bg-red-600 m-2">Free Item(Spend $40) </span>
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS8yMGU1YTBhYTVkNjk0YTVmOTE5OWYyNjkzM2U3Mjk5My8yMGFiNDI4OTBiMTNkYzNmZTcxNWI2YzkyYzg3ZGU4ZS5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Mr Szechuan</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.5</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS80Y2NiMzg4M2U4MDI1ZmJiMWI3MTZjNjMxZThmMTQ2NS8zZDU1M2I1ZDhhNzQ4NTdkYjQwYTc1NzVjMDAzZGM3Ny53ZWJw" alt="" class="lg:w-44 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Hot Cookie</h1>
+                            <span class="px-1 py-1 h-5 rounded-full text-xs bg-gray-300 fa-solid fa-medal bg-yellow-400"></span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS84N2E4ZmFhYmMwYmI0MmI3ZGEwZGFiZjIwMjI1YzZlNy85NjZmNDk4MjlhZmUzYzAzZGZkMjczMDc3NzBlZTM0Zi5qcGVn" alt="" class="lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Mustafio's Pizza</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="lg:flex cursor-pointer">
+                         <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9lbmhhbmNlZC1pbWFnZXMvaW1hZ2UtdG91Y2h1cC12MS81NWQ5OWZmYjViOTg3NmExNmZjMTBmN2I1MmNmYmM3OS80ZTI3MGI0OGMyYjlmY2QzYmM4ZTM3YTA5NzkxNmU4OC5qcGVn" alt="" class=" lg:w-50 lg:h-35 max-md:rounded-lg mb-1">
+                         <div class="lg:ml-5">
+                            <div class="flex">
+                            <h1 class="w-85 font-semibold">Taqueria La Iguana Azul</h1>
+                            <span class="px-1 h-5 rounded-full text-xs bg-gray-300">4.6</span>
+                            </div>    
+                            <p class="w-fit text-sm text-gray-500 lg:mb-2">Korean • Asian • BBQ • Alchol • Family Friend • Exclusive</p>
+                            <p class="w-fit text-sm text-gray-500">Affordable Packside spot, offering Over Rice & Noodle, Spicy Flavour
+                                Vegutable&soup, House cooking and more
+                            </p>
+                            <p class="w-fit text-sm text-gray-500 lg:mt-2">890 Taraval St, San Francisco, CA 94116</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+      <div class="border border-t border-gray-100 ml-9 mr-9  "></div>
+
+      <section>
+        <section>
+               <div class="p-9">
+            <div class="lg:grid md:grid-cols-4 space-y-8"> 
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/a5aa9bbba0172134449b4ad48611d92b" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">American Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/ef607d9b260dcc5b3d1c0bdca1bfbe7d" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Alcohol near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/d95e8c376f9fde5ece488d3f18cb4166" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">African Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/f4a19083bd38d4039c73080dc2a16fee" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Afghan Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/9ce7071e3e974db190a1cefe9a7b6001" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Arabian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/85d55fc500bc31174a9e1f73447db765" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Armenian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/57864fe0d398139ac2175e7457c63954" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Asian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/c2550f8cf42617cb4d0014de7d0cd577" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Asian Fusion near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/501a199cb6dba08fca7b7ba0cb2b1f75" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Australian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/d1164714a259d180471e20254b8211f7" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Bakery near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/b0918d1d1c2e68da8e1152050f261910" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Bangladeshi Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/92daea70cc9f6b0725ab7bedcf93284c" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Bar Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/eeb45491416e3becc1961d921e667e5d" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Bbq Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/86e0957908092f9b434b18cb0b728fb7" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Belgian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/search_home/Biryani.jpg" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Biryani Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/210ed9c483d2ecce321c4e06c7c3da6f" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Brazilian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/0bc9ca19a02e3bd03f2395c8cf8a3e0c" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Breakfast Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/eeb7284408e749f132d04a3c3285b2c9" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">British Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/15033736a6ed78875085114ee74d4b60" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Bubble Tea near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/128411a1b54acd3c3c4e5263e7c58e2d" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Burgers near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/9ddae01d317082a5cb3727d945a4880b" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Cafe near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/db2fc543b2b06589a145f55899c71c18" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Cajun Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/f72e0505de9036c0bc0d4021accc7219" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Canadian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/3f270d9121923dc25df3a5853bff83a8" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Coffee and Tea near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/85777a0f573a04acaacc19d94ff725fc" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Cantonees Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/9ccd29d6398697287313006c39498d20" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Caribbean Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/search_home/Pollo.jpg" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Chicken Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/a84dc69cee307fba4f559b1e825d8e9e" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Chinese Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/search_home/Dosa.jpg" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Dosa near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/3962b16c350438a56fd7794ba4a15b9c" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Desserts near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/cc9ef0d3f2b74972f2c97a2781b2880c" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Deli near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/fdb527f9ec336dd1bf0ccad3dae5776d" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Ramen near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/1aa7add8beef1f39adf099f57185cb39" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Russian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/search_home/Rolls.jpg" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Rolls near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/42ce3a81bced6067219d62ca44aec950" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Street Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/21b6882726bf71ba17b29ab47ef16d22" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Sushi near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/43a932e36d56d0258ccd9286dca12a77" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Swedish Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/da6fcee0cd362a754551e695d7546f62" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Taiwanesee near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/82ad068a4fabaa78308cafe9b3f192cd" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Tex Mex near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/d05be7041817489907d26ae125aa0de1" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Vegitarian Food near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/cfb732b6a1111371079b2fdb73287fcc" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Western near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/sku/062faadce31ecb80703eb7d4d273bc22" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Wings near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/search_refinements/photos/Wraps.png" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Wraps near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex cursor-pointer">
+                         <img src="https://duyt4h9nfnj50.cloudfront.net/search_home/Yakitori.jpg" alt="" class=" rounded-full w-15 lg:h-15">
+                         <div class="ml-2">
+                            <div class="flex">
+                            <h2 class="w-50 my-6">Yakitori near me</h2>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+            </div>
+               </div>
+      </section>
+
+      <div class="border border-t border-gray-100 ml-9 mr-9  "></div>
+
+      <section class="p-3 lg:p-15">
+         <div class="grid lg:grid-cols-3 ">
+          <h1 class="font-semibold text-3xl">Uber <b>Eats</b></h1>
+          <div>
+            <div class="lg:hidden flex space-x-3 mt-10 mb-10">
+            <img src="https://www.ubereats.com/_static/783bb4a82e5be29e.svg" alt="">
+            <img src="https://www.ubereats.com/_static/163bdc9b0f1e7c9e.png" alt="" class="w-34">
+          </div>
+        
+            <ul class="space-y-3 lg:ml-45 w-fit">
+              <li class="hover:underline cursor-pointer">Get Help</li>
+              <li class="hover:underline cursor-pointer">Buy gift cards</li>
+              <li class="hover:underline cursor-pointer">Add your restaurant</li>
+              <li class="hover:underline cursor-pointer">Sign up to delevery</li>
+              <li class="hover:underline cursor-pointer">Create a business account</li>
+              <li class="hover:underline cursor-pointer">Promotions</li>
+            </ul>
+          </div>
+          <div class="lg:hidden"><br><br></div>
+          <div>
+            <ul class="space-y-3 lg:ml-30 w-fit"> 
+              <li class="hover:underline cursor-pointer"><a href="ubertest2.html">Restaurant near me</a></li>
+              <li class="hover:underline cursor-pointer">View all cities</li>
+              <li class="hover:underline cursor-pointer">View all countries</li>
+              <li class="hover:underline cursor-pointer">Pickup near me</li>
+              <li class="hover:underline cursor-pointer">About Uber Eats</li>
+              <li class="hover:underline cursor-pointer">Shop groceries</li>
+              <li class="hover:underline cursor-pointer"><i class="fa-sharp fa-solid fa-language"></i>English</li>
+            </ul>
+          </div>
+          <div class=" max-md:hidden flex space-x-3">
+            <img src="https://www.ubereats.com/_static/783bb4a82e5be29e.svg" alt="" class="cursor-pointer h-10 w-34">
+            <img src="https://www.ubereats.com/_static/163bdc9b0f1e7c9e.png" alt="" class="cursor-pointer h-10 w-34">
+          </div>
+         </div>
+     </section>
+
+     <div class="border-t border-gray-300 mr-10 ml-10 mb-10"></div>
+         <section class="grid grid-cols-1"> 
+          <footer class="mb-25">
+            <div class="lg:flex space-x-5 px-3 lg:px-10">
+              <i class="fa-brands fa-square-facebook cursor-pointer"></i>
+              <i class="fa-brands fa-twitter cursor-pointer"></i>
+              <i class="fa-brands fa-instagram cursor-pointer"></i>
+              <div class="space-x-60 lg:space-x-10 my-4 text-sm lg:ml-120 cursor-pointer">
+            <a href="" class="hover:underline">Privacy Policy</a>
+            <a href="" class="hover:underline">Terms</a>
+            <a href="" class="hover:underline">Pricing</a>
+            <a href="" class="hover:underline">Do not sell or share my personal information</a>
+            </div>
+            </div>
+            <div class=" text-sm lg:flex px-3 lg:ml-94 space-x-10">
+              <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+              <br>
+              <p>&copy; 2025 Uber Technologies Inc.</p>
+            </div>
+          </footer>
+        </section>
+</body>
+</html>
